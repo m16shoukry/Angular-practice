@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  title = 'angular-crash';
+  title = 'Task Tracker';
+
   constructor() {}
 
   ngOnInit(): void {}
+
+  toggleAddTask() {
+    console.log('clickedddd!');
+  }
 }
